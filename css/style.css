@@ -1,0 +1,160 @@
+:root{
+    --primary-color: red;
+    --global-padding: 25px;
+}
+
+.nav{
+    position: sticky;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 10px 10px;
+    max-width: 350px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: darkslategray;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.fluid-design
+{
+    width: 10%;
+    padding-top: 10%;
+    border: 5px solid blue;
+    background-color: green;
+    position: relative;
+}
+
+.pixel-design{
+    width: 50px;
+    height: 50px;
+    border: 5px solid salmon;
+    background-color: blueviolet;
+}
+
+.seven-rem{
+    font-size: 16px;         /* default font-size=16px*/
+    color: cadetblue;
+}
+
+.seven-rem .seven-rem-p{
+    font-size: 7rem;        /* p=16 x 7=112px relativo al font size default del html */
+    color:chocolate
+}
+
+.seven-em{
+    font-size: 30px;        /* font-size genitore dato= 30px*/ 
+    color: yellow;
+}
+
+.seven-em .seven-em-p{
+    font-size: 7em;
+    color: aquamarine;       /* p= 30 x 7= 210 relativo al font-size del genitore div .seven-em, 30px di font-size */ 
+}
+
+h1, h4, p, span {
+    color: var(--primary-color);
+    padding: var(--global-padding);
+} 
+
+.pmb{
+    color: olivedrab;
+    font-weight: 14px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    padding: 15px;
+    margin: 10px;
+    border:5px solid orange;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;;
+    color: coral;
+    padding: 10px 8px;
+}
+
+.first-sp{
+    display: inline;
+    width: 12px;
+    height: 20px;
+    border: 4px solid black;
+    background-color: grey;
+}
+.second-sp{
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    border: 4px solid black;
+    background-color: grey;
+}
+.third-sp{
+    display: block;
+    width: 12px;
+    height: 20px;
+    border: 4px solid black;
+    background-color: grey;
+}
+
+.fac-simile{
+    border: 3px solid blue;
+}
+
+.fac-simile .div1{
+    float: right;
+    display: inline-block;
+    color: darkgoldenrod;
+    background-color: cornflowerblue; 
+    border: 5px solid crimson;
+    width: 200px;
+
+}
+
+.fac-simile .div2{
+    float: lefts;
+    display: inline-block;
+    color: darksalmon;
+    background-color: indigo;
+    border: 5px soolid firebrick;
+    width: 200px;
+}
+
+.hidden{
+    display: none;
+    color: darkgreen;
+}
+
+.float a img{
+    float: right;
+    display: inline-block;
+    border: 2px solid rgba(167, 220, 20, 0.897);
+    width: 400px;
+    padding: 36px;
+}
+
+.float .p2{
+    clear: both;
+    color: lightseagreen;
+}
+
+.p-columns{
+    display: flex;
+    background-color: rgba(0, 255, 234, 0.26);
+}
+
+.p-columns p{
+    flex: 1;
+    color: black;
+}
