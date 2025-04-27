@@ -5,6 +5,7 @@
 
 .nav{
     position: sticky;
+    top: 0px;
     background-color: whitesmoke;
     margin: 20px;
     padding: 10px 10px;
