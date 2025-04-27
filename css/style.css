@@ -214,10 +214,9 @@ li{
 
 .flexbox{
     display: flex;
-    flex-direction: column;
     gap: 5px;
     background-color: dodgerblue;
-    align-items: center;
+    justify-content: center;
 }
 
 .div-1{
