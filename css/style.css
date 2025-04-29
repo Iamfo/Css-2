@@ -30,7 +30,6 @@ html, body {
 
 }
 
-
 .fluid-design
 {
     width: 10%;
@@ -217,22 +216,31 @@ li{
     gap: 5px;
     background-color: dodgerblue;
     justify-content: center;
+    justify-content: space-between;
 }
 
 .div-1{
     background-color: fuchsia;
     width: 100px;
     height: 100px;
+    flex-shrink: 2;
+    align-self: center;
 }
 
 .div-2{
     background-color: blueviolet;
     width: 100px;
     height: 100px;
+    flex-grow: 1;
+    align-self: normal;
 }
 
 .div-3{
     background-color: chocolate;
     width: 100px;
     height: 100px;
+}
+
+.flexbox .div-2{
+    flex-basis: 200px;
 }
