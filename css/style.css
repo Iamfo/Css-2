@@ -273,7 +273,7 @@ li{
 }
 .grid2-container{
     display: grid;
-    grid-template: repeat(2,80px) / repeat(5,1fr);
+    grid-template: repeat(150px,200px) / repeat(5,1fr);
     gap: 10px;
     max-width: 750px;
     margin: 15px;
