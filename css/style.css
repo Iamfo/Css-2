@@ -244,3 +244,22 @@ li{
 .flexbox .div-2{
     flex-basis: 200px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 15px;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    padding: 20px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 24px;
+}
