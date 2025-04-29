@@ -263,3 +263,29 @@ li{
     text-align: center;
     font-size: 24px;
 }
+
+.merge{
+    grid-column: span 2;
+}
+
+.merge1-4{
+    grid-row: span 2;
+}
+.grid2-container{
+    display: grid;
+    grid-template: repeat(2,80px) / repeat(5,1fr);
+    gap: 10px;
+    max-width: 750px;
+    margin: 15px;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px;
+    border: 1px solid coral;
+    text-align: center;
+    font-size: 24px;
+}
